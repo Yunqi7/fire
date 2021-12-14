@@ -1,12 +1,13 @@
 <template>
     <div>
 Statistics.vue
+<Nav />
     </div>
 </template>
 
 <script>
-    export default {
-        
+    export default{
+        name:'Labels'
     }
 </script>
 
