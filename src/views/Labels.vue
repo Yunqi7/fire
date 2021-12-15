@@ -1,7 +1,9 @@
 <template>
-    <div>
-Labels.vue
-<Nav />
+    <div class="nav-wrapper">
+        <div class="content">
+            Labels.vue
+        </div>
+        <Nav />
     </div>
 </template>
 
@@ -12,5 +14,15 @@ Labels.vue
 </script>
 
 <style lang="scss" scoped>
+.nav-wrapper{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    flex-grow: 1;
+    overflow: auto;
+}
 
 </style>
