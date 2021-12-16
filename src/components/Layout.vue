@@ -10,7 +10,7 @@
 
 <style lang="scss" scoped>
 .nav-wrapper{
-    border: 1px solid green;
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
